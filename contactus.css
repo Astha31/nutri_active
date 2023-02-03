@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.goback{
+    text-decoration-line: none;
+    text-align: center;
+    color:white;
+    margin-top: 15em;
+    border: 0px solid transparent;
+    transition : 0.6s ease;
+    text-align:start;
+    font-size:x-large; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 50px;
+}
+.goback:hover{
+    background-color:white;
+    color:gray;
+}
+
+body{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(contactUs.jpg),no-repeat;
+    width: 100%;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    
+
+}
+
+.contact-section .contact-info{
+    color: white;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 1000vw;
+    line-height: 50px;
+    padding-left: 10vmin;
+}
+#form{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    text-shadow: gray;
+    padding-left: 10vmin;
+}
+
+#address{
+    padding-left: 0px;
+}

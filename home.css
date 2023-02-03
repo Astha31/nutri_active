@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans:wght@100;400&display=swap');
+
+#user{
+    font-size: 30em;
+    font-weight: bolder;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 10px;
+    padding-left: 5px;
+
+} 
+body{
+    background-image: url(bg2.png);
+    background-size:initial;
+    font-family: 'Josefin Sans', sans-serif;
+    border-image-source: url(black.jpg);
+    border-image-slice: 100;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    margin-top: 2.5%;
+
+}
+.wrapper h1{
+    font-family: 'Allura', cursive;
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+.team{
+    display: flex;
+    text-align: center;
+    width:auto;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.team .team_member{
+    background-color: white;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 500px;
+    padding: 20px;
+    line-height: 20px;
+    color:black;
+    position: relative;
+    
+}
+
+.team .team_member h3{
+    color: black;
+    font-size: 26px;
+    margin-top: 50px;
+}
+
+.team .team_member p.role{
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px
+    
+    ;
+}
+
+.team_member .team_member .team_img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+
+}
+.back a{
+    text-decoration-line: none;
+    text-align: center;
+    background-color:rgb(56, 55, 55);
+    color:white;
+    margin-top: 30em;
+    margin-left: 0em;
+    margin-bottom: 5px;
+    border: 0.5px solid transparent;
+    transition : 0.6s ease;
+    text-align:center;
+    font-size:x-large; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.back a:hover{
+    background-color:white;
+    color:black;
+    border-style: inherit;
+}
+.design .container .design_content .design_item .design_img{
+    width: 1000px;
+    height: 150px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    display: block;
+    position: relative;
+    top:50%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+    
+}
+
+.design .container .design_content .design_item .design_title {
+    font-size: x-large;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    padding-top: 2em;
+    padding-bottom: 4em;
+    /*padding-left: 50px;
+    padding-right: 50px;
+    */
+
+}
+
+.design .container .title{
+    font-size: x-large;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+}
+
+.design_title a{
+    font-family: 'Josefin Sans', sans-serif;
+    color: darkslategrey;
+    padding-top:15vmin;
+
+}
+
+.design_item{
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+}
+
+
+
+/*
+
+.design_img{
+    border: 1px;
+}
+
+.design_img img{
+    width: 100%;
+    height: auto;
+}
+.design_item{
+    padding: 0 6px;
+    float: left;
+    width: 25%;
+}
+
+@media screen and (max-width: 700px) {
+    .design_item{
+        width: 50%;
+        margin: 6px 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .design_item{
+        width: 100%;
+    }
+}*/
+

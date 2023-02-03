@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+body{
+    background-image: url(veggidoddle.jpg);
+    background-size: inherit;
+}
+
+.header{
+    background-image:/*linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),*/url(finalnutriactive.jpeg);
+    height: 100vmin;
+    width: 100%;
+    background-size:contain;
+    background-position:center;
+    
+    background-repeat: no-repeat;
+}
+ul{
+    float:initial;
+    list-style-type: none;
+    margin-top: 25px;
+    text-align: center;
+    
+    
+}
+ul li{
+  display: inline-block;
+  
+}
+ul li a{
+    
+    text-decoration-line: none;
+    text-align: center;
+    background-color:rgb(56, 55, 55);
+    color:white;
+    padding: 5px 15px;
+    border: 1 px solid transparent;
+    transition : 0.6s ease;
+    text-align: center;
+    border-radius: 0em;
+    /*
+    @media screen and (max-width:992px){
+        font-size: 10px;
+    }
+    */
+    
+    
+}
+ul li a:hover{
+    background-color:white;
+    color:black;
+}
+ 
+.main{
+    max-width: 1000px;
+    margin:auto;
+    
+}
+/*.title{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: white;
+    font-size:70px;
+}*/

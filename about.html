@@ -1,0 +1,1367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link rel="shortcut icon" type="image/jpg" href="favicon.jpg">
+    <link rel="stylesheet" href="about.css">
+    <style>
+        @media (max-width:768px) {
+            #outerbox{
+                width:500px;
+                margin:auto;
+            }
+            
+        }
+
+        @media screen and (max-width:480px) {
+            #outerbox{
+                width:300px;
+                margin:auto;
+            }
+            
+        }
+
+        @media screen and (max-width:320px) {
+           #loya img {
+                width: 690px;
+                height: 490px;
+                margin-left: 2vw;
+            }
+            
+           
+            .box{
+                display: block;
+                float: left;
+                width: 100%;
+                margin-bottom: 15vw;
+                
+                
+            }
+            .box img{
+               width: 350px;
+               height: 300px;
+               margin-left: 45vw;
+              
+             }
+
+            .box img:hover{
+                transform: scale(2.6,2.6);
+                transition: 0.3s transform;
+                }
+
+           main{
+               
+               padding: 0px;
+               margin-left:50px;
+               width: 100%;
+               
+            }
+            
+          #zumba img{
+            width: 690px;
+            height: auto;
+            margin-left: 2vw;
+
+          }
+          #tall img{
+              width: 150px;
+              height: auto;
+              padding: 0%;
+              margin-left: 2vw;
+              margin-top: 5vw;
+              margin-bottom: 5vw;
+          }
+          #outerbox
+        {
+            width: 700px;
+            overflow: hidden;
+            border-radius: 10px;
+            justify-items: center;
+            margin-left: 0%;
+
+        }
+          #sliderbox {
+              position: relative;
+              width: 500%;
+              animation-name: t;
+              animation-duration: 20s;
+             animation-iteration-count: infinite;
+            }
+          #sliderbox img{
+                float: left;
+                width: 20%;
+            }
+            #about{
+                margin-left: 5em;
+                text-align: center;
+            }
+
+            #heading1{
+                font-size: 5vmax;
+                margin-left: 2vw;
+            }
+            #heading2{
+                margin-left: 2vw;
+            }
+            #para1 {
+                margin-left: 2vw;
+                padding-left: 50px;
+                font-size: 8vw;
+                width: 600px;
+            }
+            
+            #division{
+                text-align: center;
+                font-size: 12px;
+                width:500px;
+                padding-left: 30px;
+                
+            }
+            p{
+                margin-left: 2vw;
+                padding-left: 50px;
+                font-size: 8vw;
+                width: 600px;
+            }
+            #conclude{
+                font-size: 1.5em;
+                color:darkslategrey;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                width: 700px;
+
+            }
+            #fun{
+                margin-top: 100em;
+            }
+
+        }
+
+        @media screen and (min-width:321px) and (max-width:375px) {
+            #loya img {
+                width: 745px;
+                height: 500px;
+                margin-left: 2vw;
+            }
+            
+           
+            .box{
+                display: block;
+                float: left;
+                width: 100%;
+                margin-bottom: 15vw;
+                
+                
+            }
+            .box img{
+               width: 350px;
+               height: 300px;
+               margin-left: 45vw;
+              
+             }
+
+            .box img:hover{
+                transform: scale(2.6,2.6);
+                transition: 0.3s transform;
+                }
+
+           main{
+               
+               padding: 0px;
+               margin-left:50px;
+               width: 100%;
+               
+            }
+            
+          #zumba img{
+            width: 690px;
+            height: auto;
+            margin-left: 7vw;
+
+          }
+          #tall img{
+              width: 150px;
+              height: auto;
+              padding: 0%;
+              margin-left: 2vw;
+              margin-top: 5vw;
+              margin-bottom: 5vw;
+          }
+          #outerbox
+        {
+            width: 700px;
+            overflow: hidden;
+            border-radius: 10px;
+            justify-items: center;
+            margin-left: 4vw;
+
+        }
+          #sliderbox {
+              position: relative;
+              width: 500%;
+              animation-name: t;
+              animation-duration: 20s;
+             animation-iteration-count: infinite;
+            }
+          #sliderbox img{
+                float: left;
+                width: 20%;
+            }
+            #about{
+                margin-left: 5em;
+                text-align: center;
+            }
+
+            #heading1{
+                font-size: 5vmax;
+                margin-left: 2vw;
+            }
+            #heading2{
+                margin-left: 2vw;
+            }
+            #para1 {
+                margin-left: 2vw;
+                padding-left: 50px;
+                font-size: 8vw;
+                width: 600px;
+            }
+            
+            #division{
+                text-align: center;
+                font-size: 12px;
+                width:500px;
+                padding-left: 30px;
+                
+            }
+            p{
+                margin-left: 2vw;
+                padding-left: 50px;
+                font-size: 8vw;
+                width: 600px;
+            }
+            #conclude{
+                font-size: 1.5em;
+                color:darkslategrey;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                width: 700px;
+
+            }
+                
+     }
+
+     @media screen and (min-width:375px) and (max-width:425px) {
+            #loya img {
+                width: 745px;
+                height: 500px;
+                margin-left: 2vw;
+            }
+            
+           
+            .box{
+                display: block;
+                float: left;
+                width: 100%;
+                margin-bottom: 15vw;
+                
+                
+            }
+            .box img{
+               width: 350px;
+               height: 300px;
+               margin-left: 45vw;
+              
+             }
+
+            .box img:hover{
+                transform: scale(2.6,2.6);
+                transition: 0.3s transform;
+                }
+
+           main{
+               
+               padding: 0px;
+               margin-left:50px;
+               width: 100%;
+               
+            }
+            
+          #zumba img{
+            width: 690px;
+            height: auto;
+            margin-left: 6vw;
+
+          }
+          #tall img{
+              width: 150px;
+              height: auto;
+              padding: 0%;
+              margin-left: 2vw;
+              margin-top: 5vw;
+              margin-bottom: 5vw;
+          }
+          #outerbox
+        {
+            width: 700px;
+            overflow: hidden;
+            border-radius: 10px;
+            justify-items: center;
+            margin-left: 4vw;
+
+        }
+          #sliderbox {
+              position: relative;
+              width: 500%;
+              animation-name: t;
+              animation-duration: 20s;
+             animation-iteration-count: infinite;
+            }
+          #sliderbox img{
+                float: left;
+                width: 20%;
+            }
+            #about{
+                margin-left: 5em;
+                text-align: center;
+            }
+
+            #heading1{
+                font-size: 5vmax;
+                margin-left: 2vw;
+            }
+            #heading2{
+                margin-left: 2vw;
+            }
+            #para1 {
+                margin-left: 2vw;
+                padding-left: 50px;
+                font-size: 8vw;
+                width: 600px;
+            }
+            
+            #division{
+                text-align: center;
+                font-size: 12px;
+                width:500px;
+                padding-left: 30px;
+                
+            }
+            p{
+                margin-left: 2vw;
+                padding-left: 50px;
+                font-size: 8vw;
+                width: 600px;
+            }
+            #conclude{
+                font-size: 1.5em;
+                color:darkslategrey;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                width: 700px;
+
+            }
+                
+     }
+
+     @media screen and (min-width:425px) and (max-width:455px) {
+            #loya img {
+                width: 745px;
+                height: 500px;
+                margin-left: 2vw;
+            }
+            
+           
+            .box{
+                display: block;
+                float: left;
+                width: 100%;
+                margin-bottom: 15vw;
+                
+                
+            }
+            .box img{
+               width: 350px;
+               height: 300px;
+               margin-left: 45vw;
+              
+             }
+
+            .box img:hover{
+                transform: scale(2.6,2.6);
+                transition: 0.3s transform;
+                }
+
+           main{
+               
+               padding: 0px;
+               margin-left:50px;
+               width: 100%;
+               
+            }
+            
+          #zumba img{
+            width: 690px;
+            height: auto;
+            margin-left: 6vw;
+
+          }
+          #tall img{
+              width: 150px;
+              height: auto;
+              padding: 0%;
+              margin-left: 2vw;
+              margin-top: 5vw;
+              margin-bottom: 5vw;
+          }
+          #outerbox
+        {
+            width: 700px;
+            overflow: hidden;
+            border-radius: 10px;
+            justify-items: center;
+            margin-left: 5vw;
+
+        }
+          #sliderbox {
+              position: relative;
+              width: 500%;
+              animation-name: t;
+              animation-duration: 20s;
+             animation-iteration-count: infinite;
+            }
+          #sliderbox img{
+                float: left;
+                width: 20%;
+            }
+            #about{
+                margin-left: 5em;
+                text-align: center;
+            }
+
+            #heading1{
+                font-size: 5vmax;
+                margin-left: 2vw;
+            }
+            #heading2{
+                margin-left: 2vw;
+            }
+            #para1 {
+                margin-left: 2vw;
+                padding-left: 50px;
+                font-size: 8vw;
+                width: 600px;
+            }
+            
+            #division{
+                text-align: center;
+                font-size: 12px;
+                width:500px;
+                padding-left: 30px;
+                
+            }
+            p{
+                margin-left: 2vw;
+                padding-left: 50px;
+                font-size: 8vw;
+                width: 600px;
+            }
+            #conclude{
+                font-size: 1.5em;
+                color:darkslategrey;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                width: 700px;
+
+            }
+                
+     }
+
+     @media screen and (min-width:455px) and (max-width:650px) {
+            #loya img {
+                width: 745px;
+                height: 500px;
+                margin-left: 2vw;
+            }
+            
+           
+            .box{
+                display: block;
+                float: left;
+                width: 100%;
+                margin-bottom: 15vw;
+                
+                
+            }
+            .box img{
+               width: 350px;
+               height: 300px;
+               margin-left: 35vw;
+              
+             }
+
+            .box img:hover{
+                transform: scale(2.6,2.6);
+                transition: 0.3s transform;
+                }
+
+           main{
+               
+               padding: 0px;
+               margin-left:50px;
+               width: 100%;
+               
+            }
+            
+          #zumba img{
+            width: 690px;
+            height: auto;
+            margin-left: 6vw;
+
+          }
+          #tall img{
+              width: 150px;
+              height: auto;
+              padding: 0%;
+              margin-left: 2vw;
+              margin-top: 5vw;
+              margin-bottom: 5vw;
+          }
+          #outerbox
+        {
+            width: 700px;
+            overflow: hidden;
+            border-radius: 10px;
+            justify-items: center;
+            margin-left: 5vw;
+
+        }
+          #sliderbox {
+              position: relative;
+              width: 500%;
+              animation-name: t;
+              animation-duration: 20s;
+             animation-iteration-count: infinite;
+            }
+          #sliderbox img{
+                float: left;
+                width: 20%;
+            }
+            #about{
+                margin-left: 5em;
+                text-align: center;
+            }
+
+            #heading1{
+                font-size: 5vmax;
+                margin-left: 2vw;
+            }
+            #heading2{
+                margin-left: 2vw;
+            }
+            #para1 {
+                margin-left: 2vw;
+                padding-left: 50px;
+                font-size: 8vw;
+                width: 600px;
+            }
+            
+            #division{
+                text-align: center;
+                font-size: 12px;
+                width:500px;
+                padding-left: 30px;
+                
+            }
+            p{
+                margin-left: 2vw;
+                padding-left: 50px;
+                font-size: 8vw;
+                width: 600px;
+            }
+            #conclude{
+                font-size: 1.5em;
+                color:darkslategrey;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                width: 700px;
+
+            }
+                
+     }
+
+     @media screen and (min-width:650px) and (max-width:768px) {
+            #loya img {
+                width: 745px;
+                height: 500px;
+                margin-left: 2vw;
+            }
+            
+           
+            .box{
+                display: block;
+                float: left;
+                width: 100%;
+                margin-bottom: 15vw;
+                
+                
+            }
+            .box img{
+               width: 350px;
+               height: 300px;
+               margin-left: 20vw;
+              
+             }
+
+            .box img:hover{
+                transform: scale(2.6,2.6);
+                transition: 0.3s transform;
+                }
+
+           main{
+               
+               padding: 0px;
+               margin-left:50px;
+               width: 100%;
+               
+            }
+            
+          #zumba img{
+            width: 690px;
+            height: auto;
+            margin-left: 6vw;
+
+          }
+          #tall img{
+              width: 150px;
+              height: auto;
+              padding: 0%;
+              margin-left: 2vw;
+              margin-top: 5vw;
+              margin-bottom: 5vw;
+          }
+          #outerbox
+        {
+            width: 700px;
+            overflow: hidden;
+            border-radius: 10px;
+            justify-items: center;
+            margin-left: 5vw;
+
+        }
+          #sliderbox {
+              position: relative;
+              width: 500%;
+              animation-name: t;
+              animation-duration: 20s;
+             animation-iteration-count: infinite;
+            }
+          #sliderbox img{
+                float: left;
+                width: 20%;
+            }
+            #about{
+                margin-left: 5em;
+                text-align: center;
+            }
+
+            #heading1{
+                font-size: 5vmax;
+                margin-left: 2vw;
+            }
+            #heading2{
+                margin-left: 2vw;
+            }
+            #para1 {
+                margin-left: 2vw;
+                padding-left: 50px;
+                font-size: 8vw;
+                width: 600px;
+            }
+            
+            #division{
+                text-align: center;
+                font-size: 12px;
+                width:500px;
+                padding-left: 30px;
+                
+            }
+            p{
+                margin-left: 2vw;
+                padding-left: 50px;
+                font-size: 5vw;
+                width: 600px;
+            }
+            #conclude{
+                font-size: 1.5em;
+                color:darkslategrey;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                width: 700px;
+
+            }
+                
+     }
+     
+     @media screen and (min-width:768px) and (max-width:815px) {
+            #loya img {
+                width: 745px;
+                height: 500px;
+                margin-left: 5vw;
+            }
+            
+           
+            .box{
+                display: block;
+                float: left;
+                width: 100%;
+                margin-bottom: 15vw;
+                
+                
+            }
+            .box img{
+               width: 350px;
+               height: 300px;
+               margin-left: 20vw;
+              
+             }
+
+            .box img:hover{
+                transform: scale(2.6,2.6);
+                transition: 0.3s transform;
+                }
+
+           main{
+               
+               padding: 0px;
+               margin-left:50px;
+               width: 100%;
+               
+            }
+            
+          #zumba img{
+            width: 690px;
+            height: auto;
+            margin-left: 8vw;
+
+          }
+          #tall img{
+              width: 150px;
+              height: auto;
+              padding: 0%;
+              margin-left: 2vw;
+              margin-top: 5vw;
+              margin-bottom: 5vw;
+          }
+          #outerbox
+        {
+            width: 700px;
+            overflow: hidden;
+            border-radius: 10px;
+            justify-items: center;
+            margin-left: 7vw;
+
+        }
+          #sliderbox {
+              position: relative;
+              width: 500%;
+              animation-name: t;
+              animation-duration: 20s;
+             animation-iteration-count: infinite;
+            }
+          #sliderbox img{
+                float: left;
+                width: 20%;
+            }
+            #about{
+                margin-left: 5em;
+                text-align: center;
+            }
+
+            #heading1{
+                font-size: 5vmax;
+                margin-left: 2vw;
+            }
+            #heading2{
+                margin-left: 2vw;
+            }
+            #para1 {
+                margin-left: 2vw;
+                padding-left: 50px;
+                font-size: 8vw;
+                width: 600px;
+            }
+            
+            #division{
+                text-align: center;
+                font-size: 12px;
+                width:500px;
+                padding-left: 30px;
+                
+            }
+            p{
+                margin-left: 2vw;
+                padding-left: 50px;
+                font-size: 4vw;
+                width: 600px;
+            }
+            #conclude{
+                font-size: 1.5em;
+                color:darkslategrey;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                width: 700px;
+
+            }
+                
+     }
+
+     
+      @media screen and (min-width:815px) and (max-width:900px) {
+            #loya img {
+                width: 745px;
+                height: 500px;
+                margin-left: 7vw;
+            }
+            
+           
+            .box{
+                display: block;
+                float: left;
+                width: 100%;
+                margin-bottom: 15vw;
+                
+                
+            }
+            .box img{
+               width: 350px;
+               height: 300px;
+               margin-left: 20vw;
+              
+             }
+
+            .box img:hover{
+                transform: scale(2.6,2.6);
+                transition: 0.3s transform;
+                }
+
+           main{
+               
+               padding: 0px;
+               margin-left:50px;
+               width: 100%;
+               
+            }
+            
+          #zumba img{
+            width: 690px;
+            height: auto;
+            margin-left: 10vw;
+
+          }
+          #tall img{
+              width: 150px;
+              height: auto;
+              padding: 0%;
+              margin-left: 2vw;
+              margin-top: 5vw;
+              margin-bottom: 5vw;
+          }
+          #outerbox
+        {
+            width: 700px;
+            overflow: hidden;
+            border-radius: 10px;
+            justify-items: center;
+            margin-left: 9vw;
+
+        }
+          #sliderbox {
+              position: relative;
+              width: 500%;
+              animation-name: t;
+              animation-duration: 20s;
+             animation-iteration-count: infinite;
+            }
+          #sliderbox img{
+                float: left;
+                width: 20%;
+            }
+            #about{
+                margin-left: 5em;
+                text-align: center;
+            }
+
+            #heading1{
+                font-size: 5vmax;
+                margin-left: 2vw;
+            }
+            #heading2{
+                margin-left: 2vw;
+            }
+            #para1 {
+                margin-left: 2vw;
+                padding-left: 50px;
+                font-size: 8vw;
+                width: 600px;
+            }
+            
+            #division{
+                text-align: center;
+                font-size: 12px;
+                width:500px;
+                padding-left: 30px;
+                
+            }
+            p{
+                margin-left: 2vw;
+                padding-left: 50px;
+                font-size: 3vw;
+                width: 600px;
+            }
+            #conclude{
+                font-size: 1.5em;
+                color:darkslategrey;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                width: 700px;
+
+            }
+                
+     }
+
+     @media screen and (min-width:900px) and (max-width:955px) {
+            #loya img {
+                width: 745px;
+                height: 500px;
+                margin-left: 9vw;
+            }
+            
+           
+            .box{
+                display: block;
+                float: left;
+                width: 100%;
+                margin-bottom: 15vw;
+                
+                
+            }
+            .box img{
+               width: 350px;
+               height: 300px;
+               margin-left: 20vw;
+              
+             }
+
+            .box img:hover{
+                transform: scale(2.6,2.6);
+                transition: 0.3s transform;
+                }
+
+           main{
+               
+               padding: 0px;
+               margin-left:50px;
+               width: 100%;
+               
+            }
+            
+          #zumba img{
+            width: 690px;
+            height: auto;
+            margin-left: 12vw;
+
+          }
+          #tall img{
+              width: 150px;
+              height: auto;
+              padding: 0%;
+              margin-left: 2vw;
+              margin-top: 5vw;
+              margin-bottom: 5vw;
+          }
+          #outerbox
+        {
+            width: 700px;
+            overflow: hidden;
+            border-radius: 10px;
+            justify-items: center;
+            margin-left: 11vw;
+
+        }
+          #sliderbox {
+              position: relative;
+              width: 500%;
+              animation-name: t;
+              animation-duration: 20s;
+             animation-iteration-count: infinite;
+            }
+          #sliderbox img{
+                float: left;
+                width: 20%;
+            }
+            #about{
+                margin-left: 5em;
+                text-align: center;
+            }
+
+            #heading1{
+                font-size: 5vmax;
+                margin-left: 2vw;
+            }
+            #heading2{
+                margin-left: 2vw;
+            }
+            #para1 {
+                margin-left: 2vw;
+                padding-left: 50px;
+                font-size: 8vw;
+                width: 600px;
+            }
+            
+            #division{
+                text-align: center;
+                font-size: 12px;
+                width:500px;
+                padding-left: 30px;
+                
+            }
+            p{
+                margin-left: 2vw;
+                padding-left: 50px;
+                font-size: 3vw;
+                width: 600px;
+            }
+            #conclude{
+                font-size: 1.5em;
+                color:darkslategrey;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                width: 700px;
+
+            }
+                
+     }
+     
+     @media screen and (min-width:955px) and (max-width:1030px) {
+            #loya img {
+                width: 745px;
+                height: 500px;
+                margin-left: 11vw;
+            }
+            
+           
+            .box{
+                display: block;
+                float: left;
+                width: 100%;
+                margin-bottom: 15vw;
+                
+                
+            }
+            .box img{
+               width: 350px;
+               height: 300px;
+               margin-left: 20vw;
+              
+             }
+
+            .box img:hover{
+                transform: scale(2.6,2.6);
+                transition: 0.3s transform;
+                }
+
+           main{
+               
+               padding: 0px;
+               margin-left:50px;
+               width: 100%;
+               
+            }
+            
+          #zumba img{
+            width: 690px;
+            height: auto;
+            margin-left: 14vw;
+
+          }
+          #tall img{
+              width: 150px;
+              height: auto;
+              padding: 0%;
+              margin-left: 2vw;
+              margin-top: 5vw;
+              margin-bottom: 5vw;
+          }
+          #outerbox
+        {
+            width: 700px;
+            overflow: hidden;
+            border-radius: 10px;
+            justify-items: center;
+            margin-left: 13vw;
+
+        }
+          #sliderbox {
+              position: relative;
+              width: 500%;
+              animation-name: t;
+              animation-duration: 20s;
+             animation-iteration-count: infinite;
+            }
+          #sliderbox img{
+                float: left;
+                width: 20%;
+            }
+            #about{
+                margin-left: 5em;
+                text-align: center;
+            }
+
+            #heading1{
+                font-size: 5vmax;
+                margin-left: 2vw;
+            }
+            #heading2{
+                margin-left: 2vw;
+            }
+            #para1 {
+                margin-left: 2vw;
+                padding-left: 50px;
+                font-size: 8vw;
+                width: 600px;
+            }
+            
+            #division{
+                text-align: center;
+                font-size: 12px;
+                width:500px;
+                padding-left: 30px;
+                
+            }
+            p{
+                margin-left: 2vw;
+                padding-left: 50px;
+                font-size: 3vw;
+                width: 600px;
+            }
+            #conclude{
+                font-size: 1.5em;
+                color:darkslategrey;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                width: 700px;
+
+            }
+                
+     }
+      
+     @media screen and (min-width:1030px) and (max-width:1440px) {
+            #loya img {
+                width: 745px;
+                height: 500px;
+                margin-left: 19vw;
+            }
+            
+           
+            .box{
+                display: block;
+                float: left;
+                width: 100%;
+                margin-bottom: 15vw;
+                
+                
+            }
+            .box img{
+               width: 350px;
+               height: 300px;
+               margin-left: 25vw;
+              
+             }
+
+            .box img:hover{
+                transform: scale(2.6,2.6);
+                transition: 0.3s transform;
+                }
+
+           main{
+               
+               padding: 0px;
+               margin-left:50px;
+               width: 100%;
+               
+            }
+            
+          #zumba img{
+            width: 690px;
+            height: auto;
+            margin-left: 20vw;
+
+          }
+          #tall img{
+              width: 150px;
+              height: auto;
+              padding: 0%;
+              margin-left: 2vw;
+              margin-top: 5vw;
+              margin-bottom: 5vw;
+          }
+          #outerbox
+        {
+            width: 700px;
+            overflow: hidden;
+            border-radius: 10px;
+            justify-items: center;
+            margin-left: 20vw;
+
+        }
+          #sliderbox {
+              position: relative;
+              width: 500%;
+              animation-name: t;
+              animation-duration: 20s;
+             animation-iteration-count: infinite;
+            }
+          #sliderbox img{
+                float: left;
+                width: 20%;
+            }
+            #about{
+                margin-left: 5em;
+                text-align: center;
+            }
+
+            #heading1{
+                font-size: 5vmax;
+                margin-left: 2vw;
+            }
+            #heading2{
+                margin-left: 2vw;
+            }
+            #para1 {
+                margin-left: 2vw;
+                padding-left: 50px;
+                font-size: 8vw;
+                width: 600px;
+            }
+            
+            #division{
+                text-align: center;
+                font-size: 12px;
+                width:500px;
+                padding-left: 30px;
+                
+            }
+            p{
+                margin-left: 2vw;
+                padding-left: 50px;
+                font-size: 3vw;
+                width: 600px;
+            }
+            #conclude{
+                font-size: 1.5em;
+                color:darkslategrey;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                width: 700px;
+
+            }
+                
+     }
+
+    
+    </style>
+</head>
+
+<body>
+    <div id="division">
+        <h1 id="about" style="font-size: 2em;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">We believe in
+        providing the best platform for health and proper diet consultancy.</h1>
+    </div>
+    
+<!--<p id="para1">We provide the Best platform about Health and Diet.Diet is also important for our day today life.
+</p>-->
+<br><br>
+<div id="outerbox">
+    <div id="sliderbox">
+    <img src="f1.jpg">
+    <img src="f2.jpeg">
+    <img src="f3.jpg">
+    <img src="f4.jpg"> 
+    <img src="f1.jpg">
+  </div>
+</div>
+
+</div>
+</div>
+<h1 id="heading1" style="font-weight: bolder;font-size: 8vmin; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Events</h1>
+<h2 id="heading2" style="font-weight: bolder;font-size: 1.5em; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Tree Plantation</h2>
+<p>
+    Let's all come together to plant and strive for a greener tomorrow.
+</p>
+<div id="loya">
+    <img src="w2.jpeg" width="535px" height="400px">
+    <img src="w3.jpeg " width="400px" height="400px">
+    <img src="w4.jpeg" width="555px" height="400px">
+</div>
+
+
+<h2 id="heading2" style="font-weight: bolder;font-size: 1.5em; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Food Donation</h2>
+<p>
+    Every year half of all food banks struggle to meet the hunger demand.
+</p>
+<div id="loya">
+    <img src="w16.jpeg" width="716px" height="500px">
+    <img src="w19.jpeg" width="770px" height="500px">
+</div>
+<h2 id="heading2" style="font-weight: bolder;font-size: 1.5em; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Blood Donation</h2>
+<p>
+    Everyone can be a HERO!
+    Donate blood, Save life
+</p>
+<main>
+    <div class="box"><img src="w5.jpeg"></div>
+    <div class="box"><img src="w6.jpeg"></div>
+    <div class="box"><img src="w7.jpeg"></div>
+    <div class="box"><img src="w15.jpeg"></div>
+    <div class="box"><img src="w17.jpeg"></div>
+    <div class="box"><img src="w20.jpeg"></div>
+    <div class="box"><img src="w21.jpeg"></div>
+    <div class="box"><img src="w22.jpeg"></div>
+
+
+</main>
+
+<h2 style="margin-top: 20em;" id="fun">FUN FACTOR</h2>
+<p id="funpara">
+    Let's shake the world into awarness of Fitness.
+    Come along with us to experience the happiness of togetherness!
+</p>
+<div id="zumba"><img src="w13.jpeg" width="1500px"height="700px">
+             <img src="w31.jpeg"  height="700px" width="1500px">
+</div>
+
+<br><br>
+<h2>
+    Yoga Day
+</h2>
+<p>
+    Every year we celebrate the International Yoga Day to mark the importance of 
+    Yoga and inner health.
+</p>
+<div id="outerbox">
+    <div id="sliderbox">
+    <img src="w32.jpeg">
+    <img src="happy.png">
+    <img src="w12.jpeg">
+    <img src="w34.jpeg"> 
+    <img src="w32.jpeg">
+  </div>
+</div>
+
+<h2 id="conclude" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 2em;
+color:darkslategrey;">
+        We celebrate family functions, Women's day celebration, Various Club family picnics and 
+        many more.....
+</h2>
+
+<br><br>
+
+ 
+
+
+    <a href="index.html">Home</a>
+    
+</body>
+</html>
